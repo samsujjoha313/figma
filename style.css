@@ -1,0 +1,435 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+   
+
+    
+}
+
+.menu1 a{
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    padding:5px;
+    float: left;
+    text-transform: uppercase;
+    color:gray;
+    
+}
+.menu2 h1{
+    float: left;
+    margin-left: 350px;
+
+}
+.menu3 a{
+    list-style: none;
+    font-size: 20px;
+    text-decoration: none;
+    padding:5px;
+    float: right;
+    text-transform: uppercase;
+    top:-19px;
+    color:gray;
+    
+}
+p{
+    clear:both;
+}
+
+.header1 pre h1{
+    font-size: 50px;
+    font-family: Axiforma;
+    line-height: 68px;
+    text-align: left;
+    
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+
+}
+.header1 pre h1::before{
+    content: ' ';
+    
+    height: 50px;
+    width: 200px;
+   
+    border-bottom:5px solid red;
+    margin-left: 250px;
+}
+
+.header-area{
+    display: flex;
+}
+.img1{
+    position: relative;
+    left: 90px;
+    top: 70px;
+    border:1px solid black;
+    border-bottom: none;
+    border-right: none;
+    padding: 10px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.img2{
+    position: absolute;
+    left:850px;
+}
+.img3{
+    position: absolute;
+    left:930px;
+    top:200px;
+}
+.img4{
+    position: absolute;
+    left:990px;
+    top:100px;
+}
+
+.div1{
+    
+    background-color: pink;
+    width: 800px;
+    height: 50px;
+    border-radius: 10%;
+}
+.div1 a{
+    text-decoration: none;
+   font-size: 30px;
+  
+   margin-left: 50px;
+   padding:10px;
+}
+.div1 .joha{
+   background-color: gray;
+    margin-left: 300px;
+    height: 20px;
+    color:white;
+    border-radius: 10%;
+    width: 200px;
+}
+p{
+    clear: both;
+}
+.icon{
+    height: 50px;
+    width: 1000px;
+    background-color: white;
+    color: brown;
+    padding:15px;
+   
+    
+}
+.icon i{
+    margin-left: 150px;
+}
+
+.section{
+    display: flex;
+}
+.section1 .demo1{
+    margin-left: 100px;
+    border:1px solid black;
+    border-bottom: none;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding:10px;
+
+}
+.section2{
+    margin-left:200px;
+    margin-top:150px;
+}
+.section2 a{
+    text-decoration: none;
+    color:green;
+}
+.section2 h1{
+    line-height:50px;
+    font-size: 40px;
+    font-weight: verdana;
+}
+.section2 p{
+
+    text-align: justify;
+    letter-spacing: 2px;
+}
+.demo2{
+    display: inline-block;
+    margin-top:40px;
+    background-color: red;
+    height: 40px;
+    width: 200px;
+    color:white;
+
+}
+.demo3{
+    margin-left: 100px;
+    padding:5px;
+}
+
+.menu{
+    display: flex;
+}
+.menu1{
+    margin-left: 50px;
+}
+.part1{
+    margin-left: 100px;
+}
+h2{
+    margin-left: 50px;
+    display: inline-block;
+    margin-top:30px;
+}
+b{
+    flex-direction: row;
+}
+.btn{
+    display: inline-block;
+    margin-top: 80px;
+    background-color: green;
+    color:pink;
+    width: 150px;
+    height: 40px;
+}
+.menu11{
+    position: relative;
+    top:90px;
+
+}
+.menu12{
+    position: absolute;
+    top:1050px;
+    right:170px;
+
+}
+.menu13{
+    position: absolute;
+    top:870px;
+    right:280px;
+    
+}
+.menu14{
+    position: absolute;
+    top:870px;
+    right:220px;
+    
+}
+.village-area{
+    margin-left:60px;
+    display:flex;
+}
+.village-text>a{
+    text-decoration: none;
+    color:indianred;
+
+}
+.village-text1>h1{
+    font-size: 30px;
+    padding-right:250px;
+}
+
+
+
+.village-text2 p{
+    display: inline-block;
+    margin-top: 20px;
+    
+   
+} 
+.village-btn{
+    display: inline-block;
+    margin-top:80px;
+    background-color: green;
+    color:white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.daffodil3{
+    position: relative;
+    right:200px;
+}
+.daffodil4{
+    position: absolute;
+    right:60px;
+}
+
+.millat-title, a{
+    text-decoration: none;
+    color: green;
+    text-align: center;
+
+}
+
+.millat-text{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.dhakil1 h1 i{
+   margin-left:100px;
+   margin-top:20px;
+   font-size: 30px;
+   color:green;
+}
+
+.dhakil{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.nexus-area{
+    display: flex;
+}
+
+
+.nexus1{
+    margin-left:200px;
+}
+.imgid1{
+    float:left;
+    position: relative;
+
+}
+.imgid2{
+    float:left;
+    
+}
+
+.imgid3{
+    position: absolute;
+    float:left;
+    left: 200px;
+    top: 2570px;
+    
+}
+
+.imgid4{
+    position: absolute;
+    top: 2570px;
+    right: 800px;
+}
+    
+.nexus-title{
+    color:green;
+}
+.nexus-text{
+    display: inline-block;
+    margin-top:20px;
+    font-weight: 600;
+    padding-right:90px;
+
+}
+
+.tusar-area{
+    display: flex;
+    margin-left:50px;
+}
+.tusar-area>*{
+
+    flex:1;
+}
+.tusar-title{
+    color:green;
+
+}
+
+.tusar-text{
+    display: inline-block;
+    margin-top:20px;
+    font-weight: 400;
+    padding-right:90px;
+    font-size: 60px;
+
+}
+
+.tusar-pera{
+    display: inline-block;
+    margin-top:20px;
+    
+    padding-right:90px;
+    font-size: 20px;
+
+}
+.tusar-btn{
+    display: inline-block;
+    margin-top:80px;
+
+}
+
+.tusar-btn>button{
+    padding:10px;
+}
+.tusae-btn, .one{
+    background-color: green;
+    color:white;
+}
+
+.two{
+    position: relative;
+}
+.three{
+    position: absolute;
+    right:360px;
+    border-right: none;
+}
+
+.company-area{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.company1> b{
+    font-weight: bold;
+
+}
+
+.company2> b{
+    color:green;
+  
+    
+}
+
+.company3 >b{
+    color:green;
+    
+}
+.company4> b{
+    color:green;
+    
+}
+.icon1{
+    display: flex;
+    justify-content: space-evenly;
+    color:blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
